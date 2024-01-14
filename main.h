@@ -5,17 +5,17 @@
 #define ClickPhai 0x58
 struct CauTrucBang
 {
-	short SDong;
-	short SCot;
-	short SSoBom;
-	short SSoCo;
-	short SSoODaMo;
+	short SDong=0;
+	short SCot=0;
+	short SSoBom=0;
+	short SSoCo=0;
+	short SSoODaMo=0;
 };
 
 struct CauTrucO
 {
-	bool BCoBom;
-	bool BCamCo;
-	bool BDaMo;
-	short SBomLanCan;
+	bool BCoBom= false;
+	bool BCamCo = false;
+	bool BDaMo =false;
+	short SBomLanCan = 0;
 };

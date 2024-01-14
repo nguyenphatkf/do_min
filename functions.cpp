@@ -133,6 +133,7 @@ void taoBomNgauNhien()
 {
 	short SSoBom = CTBang.SSoBom;
 	short SI, SJ;
+	srand(time(NULL));
 	while (SSoBom)
 	{
 		SI = rand() % CTBang.SDong;

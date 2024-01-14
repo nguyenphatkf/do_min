@@ -9,6 +9,8 @@ int main() {
 
 	khoiTao(9, 9, 10);
 
+	xuLySuKien();
+
 
 
 	//   cout << endl;
